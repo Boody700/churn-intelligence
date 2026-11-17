@@ -1,0 +1,10 @@
+name,label,unit,min,max,reference,importance,importance_std
+Call Failure,Call failures,failures / 9 months,0.0,36.0,6,0.0434242385057825,0.0120742557135836
+Complains,Complaint recorded,0 = no · 1 = yes,0.0,1.0,0,0.3713751292561604,0.028448160434442
+Subscription Length,Subscription length,months,3.0,47.0,35,0.085441806095287,0.0094216954117579
+Charge Amount,Charge band,ordinal charge band,0.0,10.0,0,0.0342635055510456,0.0063849820696122
+Seconds of Use,Voice usage,seconds / 9 months,0.0,16980.0,2946,0.1182282064929044,0.0182566774653023
+Frequency of use,Call count,calls / 9 months,0.0,254.0,52,0.1032772861209444,0.0137589718737406
+Frequency of SMS,SMS count,messages / 9 months,0.0,511.0,21,0.0323139789843695,0.0101730839279432
+Distinct Called Numbers,Distinct called numbers,numbers / 9 months,0.0,97.0,21,0.0104976276866155,0.0084617191539768
+Tariff Plan,Tariff plan,1 = pay as you go · 2 = contract,1.0,2.0,1,2.586163516581086e-05,0.0002529022178272

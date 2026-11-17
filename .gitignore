@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+node_modules/
+data/*.zip
+models/*.joblib
+.sites-local/
+
+.openai/
+.sites-local/
+.env
+.env.*
+!.env.example

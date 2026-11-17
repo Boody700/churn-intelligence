@@ -1,0 +1,91 @@
+{
+  "source_rows": 3150,
+  "source_sha256": "696c3a1812267980751f30d19193a1b430ac4ad76172bb089e664c96813ead66",
+  "unique_profiles": 2785,
+  "exact_duplicate_rows": 300,
+  "selected_model": "Random forest / depth 10",
+  "selection": "Highest mean grouped 3-fold training average precision",
+  "seed": 42,
+  "splits": {
+    "train": {
+      "rows": 1892,
+      "groups": 1668,
+      "churners": 299,
+      "prevalence": 0.15803382663847781
+    },
+    "validation": {
+      "rows": 627,
+      "groups": 563,
+      "churners": 97,
+      "prevalence": 0.1547049441786284
+    },
+    "test": {
+      "rows": 631,
+      "groups": 554,
+      "churners": 99,
+      "prevalence": 0.15689381933438987
+    }
+  },
+  "threshold": 0.1,
+  "validation": {
+    "average_precision": 0.8292015306130773,
+    "roc_auc": 0.9562050184788952,
+    "brier": 0.05578872579896036,
+    "precision": 0.5590062111801242,
+    "recall": 0.9278350515463918,
+    "f2": 0.819672131147541,
+    "alerts": 161,
+    "tp": 90,
+    "fp": 71,
+    "tn": 459,
+    "fn": 7
+  },
+  "test": {
+    "average_precision": 0.813155715062048,
+    "roc_auc": 0.9603269537480064,
+    "brier": 0.061375790902984714,
+    "precision": 0.609271523178808,
+    "recall": 0.9292929292929293,
+    "f2": 0.8409506398537477,
+    "alerts": 151,
+    "tp": 92,
+    "fp": 59,
+    "tn": 473,
+    "fn": 7
+  },
+  "baseline": {
+    "average_precision": 0.15689381933438987,
+    "roc_auc": 0.5,
+    "brier": 0.1322794484057111,
+    "precision": 0.15689381933438987,
+    "recall": 1.0,
+    "f2": 0.4819863680623174,
+    "alerts": 631,
+    "tp": 99,
+    "fp": 532,
+    "tn": 0,
+    "fn": 0
+  },
+  "intervals": {
+    "average_precision": [
+      0.7195649242794206,
+      0.8810570698486674
+    ],
+    "roc_auc": [
+      0.943090490330958,
+      0.9752894858453102
+    ]
+  },
+  "browser_parity_max_error": 3.885780586188048e-16,
+  "excluded_features": [
+    "Status",
+    "Customer Value",
+    "Age",
+    "Age Group"
+  ],
+  "versions": {
+    "sklearn": "1.9.1",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5"
+  }
+}
