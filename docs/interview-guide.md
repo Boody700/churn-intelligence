@@ -4,7 +4,7 @@
 
 “I built a telecom churn prediction project using UCI data. I noticed repeated behavior profiles, so I grouped identical model inputs before splitting to prevent exact-profile leakage. I compared logistic regression and random forests through grouped training cross-validation, calibrated the selected model, and chose a threshold using validation data. On the separate 631-row test set, it found 92 of 99 churners with 59 false alerts. I then exported the actual ensemble into a browser inference engine and built a workbench and threshold lab so the trade-offs are visible.”
 
-Use this after studying the implementation. Be transparent about AI assistance and explain what you personally reviewed, tested and changed.
+Use this after studying the implementation. Explain what you reviewed, tested and changed.
 
 ## Questions worth preparing
 
